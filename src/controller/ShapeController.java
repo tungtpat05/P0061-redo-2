@@ -17,7 +17,7 @@ public class ShapeController {
     private ShapeDTO shapeDTO = new ShapeDTO();
     
     //Take input from DTO
-    public void getShapeInfo(ShapeDTO shapeDTO) {
+    public void setShapeInfo(ShapeDTO shapeDTO) {
         this.shapeDTO = shapeDTO;
     }
     

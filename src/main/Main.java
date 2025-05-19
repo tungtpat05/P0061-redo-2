@@ -45,7 +45,7 @@ public class Main {
         shapeDTO.setSideC(sideC);
 
         //Transmit DTO to Controller
-        shapeController.getShapeInfo(shapeDTO);
+        shapeController.setShapeInfo(shapeDTO);
         
         //Display
         shapeController.displayRectangle();
